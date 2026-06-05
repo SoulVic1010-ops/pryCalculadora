@@ -14,7 +14,8 @@ namespace pryCalculadora
     {
         //Mi objeto
         clsCalculadora calc = new clsCalculadora();
-        public frmCalculadora()
+		ClsResta calcR = new ClsResta();
+		public frmCalculadora()
         {
             InitializeComponent();
         }
@@ -36,9 +37,9 @@ namespace pryCalculadora
         private void btnRestar_Click(object sender, EventArgs e)
         {
             // Lo mismo que lo anterior: clsCalculadora calc = new clsCalculadora();
-            calc.Numero1 = float.Parse(txtN1.Text);
-            calc.Numero2 = float.Parse(txtN2.Text);
-            txtResultado.Text = calc.Restar().ToString();
+            calcR.Numero1 = float.Parse(txtN1.Text);
+            calcR.Numero2 = float.Parse(txtN2.Text);
+            txtResultado.Text = calcR.Restar().ToString();
         }
 
         private void btnMultiplicar_Click(object sender, EventArgs e)
