@@ -56,5 +56,6 @@ namespace pryCalculadora
             calc.Numero2 = float.Parse(txtN2.Text);
             txtResultado.Text = calc.Dividir().ToString();
         }
+       
     }
 }

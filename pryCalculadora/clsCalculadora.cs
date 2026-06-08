@@ -48,5 +48,6 @@ namespace pryCalculadora
             Resultado = Numero1 / Numero2;
             return Resultado;
         }
+        //Tsu. en desarrollo de software multiplataforma, Equipo2 3B
     }
 }
