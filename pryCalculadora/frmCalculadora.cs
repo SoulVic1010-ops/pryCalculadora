@@ -21,8 +21,8 @@ namespace pryCalculadora
 
         private void btnSumar_Click(object sender, EventArgs e)
         {
-            //Esto se ocupa atraves del constructor (opc 1)
-            //Mi objeto
+            //Esto se ocupa atraves del constructor (opcion 1)
+            //Mi objeto:
             //clsCalculadora calc = new clsCalculadora(float.Parse(txtN1.Text), float.Parse(txtN2.Text));
             //txtResultado.Text = calc.Sumar().ToString();
 
