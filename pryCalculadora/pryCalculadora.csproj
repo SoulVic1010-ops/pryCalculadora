@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="clsCalculadora.cs" />
     <Compile Include="ClsResta.cs" />
+    <Compile Include="Comentario.cs" />
     <Compile Include="frmCalculadora.cs">
       <SubType>Form</SubType>
     </Compile>
