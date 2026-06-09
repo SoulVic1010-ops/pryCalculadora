@@ -38,16 +38,12 @@ namespace pryCalculadora
             Resultado = Numero1 - Numero2;
             return Resultado;
         }
-        public float Multiplicar ()
-        {
-            Resultado = Numero1 * Numero2;
-            return Resultado;
-        }
+      
         public float Dividir()
         {
             Resultado = Numero1 / Numero2;
             return Resultado;
         }
-        //Tsu. en desarrollo de software multiplataforma, Equipo2 3B
+       
     }
 }
