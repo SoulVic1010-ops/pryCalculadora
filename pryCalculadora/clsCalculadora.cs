@@ -12,7 +12,7 @@ namespace pryCalculadora
         private float numero1;
         private float numero2;
         //Atributo de salida
-        private float Resultado;
+        protected float Resultado;
 
         //Esta es la segunda opc 2
         //Uso de propiedades set y get
@@ -33,11 +33,13 @@ namespace pryCalculadora
             Resultado = Numero1 + Numero2;
             return Resultado;
         }
+        /*
         public float Restar()
         {
             Resultado = Numero1 - Numero2;
             return Resultado;
         }
+        */
         public float Multiplicar ()
         {
             Resultado = Numero1 * Numero2;
